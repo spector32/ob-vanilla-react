@@ -1,0 +1,8 @@
+{
+  "id": "users",
+  "gateway": "/users",
+  "gateways": { "users": "/users/?:params", "user": "/user/:id" },
+  "allowedMethods": ["get", "post", "put", "delete"],
+  "driver": "fetch",
+  "permissions": "All"
+}
